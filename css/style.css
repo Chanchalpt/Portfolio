@@ -1,0 +1,1490 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}    
+
+html, body {
+    margin:0px;
+    height:100%;
+  }
+
+.home-bg{
+   background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(../Images/portfolioBackground5.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+a{
+    color: white;
+}
+
+.homePageCard a{
+    text-decoration: none;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(5%);
+    }
+}
+
+.container{
+    max-width: 1980px;
+}
+
+.headSection{
+    margin-top: 55%;
+}
+
+.skillsSection{
+    margin-top: 15%;
+}
+
+.skillsSection .skillName .myDescription{
+    font-weight: 70;
+    font-size: 28px;
+    text-align: center;
+    padding: 1% 10%;
+    animation: fadeIn 1.5s forwards;
+}
+
+.skillsSection .skillHeading h1{
+    text-align: left;
+    font-size: 70px;
+    font-weight: 1;
+    letter-spacing: 20px;
+    
+    animation: fadeIn 1s forwards;
+}
+
+hr{
+    width: 80%;
+    height: 1px;
+    border: solid;
+}
+
+.skillsSection .skillName{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    animation: fadeIn 0.5s forwards;
+}
+
+.skillsSection .skillFlex{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+
+.skillsSection .skillHeadingFlex{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.skillsSection .educationFlex{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+   
+}
+
+.close{
+    margin-top: 30px;
+}
+ .closeImage{
+     margin-left: 30%;
+     width: 80px;
+     height: auto;
+     animation: fadeIn 1s forwards;
+ }
+
+.skillsSection .skillFlex .skill{
+  padding: 2%;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    backdrop-filter: blur(5px);
+    animation: fadeIn 2.5s forwards;
+    flex-basis:350px;
+    border-radius: 7px;
+    margin: 2%;
+}
+
+
+.skillsSection .skillHeadingFlex .skillHead{
+      animation: fadeIn 1s forwards;
+      flex-basis:350px;
+      border-radius: 7px;
+      margin: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  }
+
+.skillsSection .skillFlex .project{
+    padding: 2%;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12)
+      ;
+      backdrop-filter: blur(5px);
+      animation: fadeIn 2.5s forwards;
+      flex-basis:350px;
+      border-radius: 7px;
+      margin: 2%;
+      min-height: 500px;
+  }
+
+  .skillsSection .skillFlex .project p{
+    font-size: 20px;
+  }
+
+.skillsSection .educationFlex .education{
+    padding: 2%;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12)
+      ;
+      backdrop-filter: blur(5px);
+      animation: fadeIn 2.5s forwards;
+      flex-basis:70%;
+      border-radius: 7px;
+      margin: 2%;
+      font-size: 22px;
+  }
+
+.skillsSection .skillFlex .skill:hover{
+    letter-spacing: 5px;
+    background-color: #262626;
+    color: white;
+    transition: 1s;
+    backdrop-filter: blur(5px);
+    opacity: 0.5;
+    font-size: 10px;
+}
+  
+.skillsSection .skillFlex .project:hover{
+    letter-spacing: 2px;
+    background-color: #262626;
+    color: white;
+    transition: 1s;
+    backdrop-filter: blur(5px);
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+
+#file{
+    width: 100%;
+}
+
+.skillsSection .skillName h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 50;
+    letter-spacing: 2px;
+    animation: fadeIn 2s forwards;
+
+}
+
+
+.textSection{
+    padding: 0%;
+    animation: fadeIn 2s forwards;
+}
+
+.headSection .textSection h3{
+    font-size: 50px;
+    font-weight: 15;
+    letter-spacing: 10px;
+}
+
+
+
+
+
+.chanchal{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: white;
+    border-width: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    animation: fadeIn 1s forwards;
+}
+
+
+
+.projectbtn{
+    background: #007BFF;
+    width: 100%;
+    border-style: none;
+    border-radius: 7px;
+    padding: 2%;
+    color: white;
+}
+
+.projectbtn:hover{
+    color: #ffffff;
+    box-shadow: 0 0 10px #007BFF, 0 0 40px #007BFF, 0 0 80px #007BFF;
+    transition-delay: 0s;
+    text-decoration: none;
+    border: 1px solid #007BFF;
+}
+
+.homebtn{
+    background: #007BFF;
+    width: 100%;
+    border: 1px solid #007BFF;
+    border-radius: 7px;
+    padding: 5%;
+    color: white;
+    font-size: 18px;
+}
+
+.homebtn2{
+    background: #ffffff;
+    width: 100%;
+    border-style: solid;
+    border-color: #007BFF;
+    border-radius: 7px;
+    padding: 5%;
+    color: #007BFF;
+    font-size: 18px;
+}
+
+.homebtn4{
+    background: #007BFF;
+    width: 200px;
+    height: auto;
+    border: 1px solid #007BFF;
+    border-radius: 7px;
+    padding: 1%;
+    color: white;
+    font-size: 18px;
+}
+
+
+.homebtn4:hover{
+    color: #ffffff;
+    background: #123D9E;
+    box-shadow: 0 0 10px #007BFF, 0 0 40px #007BFF, 0 0 80px #007BFF;
+    transition-delay: 0s;
+    text-decoration: none;
+    border: 1px solid #007BFF;
+}
+
+.homebtn:hover{
+    color: #ffffff;
+    background: #123D9E;
+    box-shadow: 0 0 10px #007BFF, 0 0 40px #007BFF, 0 0 80px #007BFF;
+    transition-delay: 0s;
+    text-decoration: none;
+    border: 1px solid #007BFF;
+}
+
+.homebtn3:hover{
+    color: #ffffff;
+    background: #123D9E;
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+    transition-delay: 0s;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+}
+
+.homebtn2:hover{
+    color: #007BFF;
+    box-shadow: 0 0 10px #007BFF, 0 0 40px #007BFF, 0 0 80px #007BFF;
+    transition-delay: 0s;
+    text-decoration: none;
+    border: 1px solid #007BFF;
+}
+
+.homebtn3{
+    background: rgb(22, 22, 22);
+    width: 80%;
+    border-style: none;
+    border-radius: 7px;
+    padding: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 1%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+}
+
+.homebtn3:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 10%;
+    width: 80%;
+}
+
+.footerHeading1 
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    position: relative;
+    margin-top: 10%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+.footerHeading2 
+{
+    
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    position: relative;
+    margin-top: 10%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+.footerButtom{
+    
+    width: 100%;
+    position: relative;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 1%;
+    bottom: 0;
+}
+
+.footerContents{
+    padding: 2%;
+    text-align: center;
+}
+
+.footerContents h2{
+    font-weight: 50;
+    font-size: 22px;
+}
+
+/* front page CSS 3D cards */
+
+ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 35%;
+    bottom: 5%;
+}
+
+ul li{
+    display: block;
+    width: 240px;
+    height: 280px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgb(19, 19, 19);
+   
+    position: absolute;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    transform-origin: bottom center;
+    transform: rotate(10deg) skew(-30deg);
+    transition: .5s;
+    border-radius: 7px;
+}
+
+ul li span{
+    display: block;
+    color: #ccc;
+    text-align: center;
+    font-size: 2em;
+    line-height: 120px;
+}
+
+ul li:nth-child(1){
+    transform: rotate(5deg) skew(0deg) translate(200px, 0px);
+}
+
+ul li:nth-child(2){
+    transform: rotate(0deg) skew(0deg) translate(0px, 0px);
+}
+
+ul li:nth-child(3){
+    transform: rotate(-5deg) skew(0deg) translate(-200px, 0px);
+}
+
+
+ul li::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    background: #007BFF;
+    transition: .5s;
+    border-radius: 7px;
+}
+
+ul li:hover::before{
+    left: 0%;
+    width: 100%;
+}
+
+ul li::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    right: 0;
+    bottom: 0;
+    background: #262626;
+    transition: .5s;
+    border-radius: 7px;
+}
+ul li:hover::after{
+    width: 0%;
+}
+
+
+
+
+  .options{
+    animation: fadeIn 3s forwards;
+    margin-top: -50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .options button{
+      width: 150px;
+  }
+
+  .options button:hover{
+    background-color: white;
+    color: #007BFF;
+    border-style: none;
+}
+
+/* front page CSS 3D cards code ends here */
+
+/* front page CSS simple cards code starts here */
+
+.homePageCard{
+    background: rgb(24, 24, 24);
+    margin-top: 20%;
+    padding: 10%;
+    max-width: 300px;
+    min-height: 100px;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    animation: fadeIn 2.5s forwards;
+}
+
+
+.homePageCard:hover{
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+    transform:scale(1.05);
+}
+
+.homePageCard:hover .contentCenter{
+    transform: translateY(-20%) scale(0.8);
+    transition: 0.5s;
+}
+
+.homePageCard:hover .btn{
+    transform: translateY(-50%);
+    transition: 0.5s;
+    color:#007BFF;
+    background-color: white;
+}
+
+.contentCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    text-align: center;
+    padding-top: 20%;
+  }
+
+  .btn {
+    transition: 0.5s;
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #007BFF;
+    background-color: #007BFF;
+  }
+
+/* front page CSS simple cards code ends here */
+
+/* Contact page CSS cards code starts here */
+.cardFlex{
+    animation: fadeIn 2.5s forwards;
+}
+
+.card{
+    margin-top: 50%;
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    border-style: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg,rgb(37, 37, 37),rgb(37, 37, 37));
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    
+}
+
+.card img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 250px;
+    transition: 0.5s;
+    
+}
+
+.card:hover img{
+    left: 60%;
+    height: 350px;
+    transform: rotate(30deg);
+}
+
+.card .content{
+    position: relative;
+    width: 100%;
+    left: 50%;
+    top: 40%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.card:hover .content{
+    left: 0%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card .content h2{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.card .content h3{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* Contact page CSS cards code ends here */
+
+
+
+/* Resolutions*/
+@media screen and (min-width:200px){
+
+    .homePageCard a{
+        text-decoration: none;
+    }
+
+    .chanchal{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        box-shadow: none;
+    }
+
+    .profilePic{
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+    }
+
+    .headSection{
+        margin-top: 25%;
+        
+    }
+
+    .headSection .textSection h3{
+        font-size: 60px;
+        font-weight: 4;
+        letter-spacing: 2px;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .homebtn{
+        padding: 2%;
+        font-size: 20px;
+        border-style: solid;
+        border-color: #007BFF;
+        margin-bottom: 5%;
+    }
+
+    .homebtn2{
+        padding: 2%;
+        font-size: 20px;
+    }
+
+    .homePageCard{
+        margin-top: 0%;
+        padding: 5%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background: none;
+        box-shadow: none;
+    }
+    .homePageCard .contentCenter{
+       display: none;
+    }
+
+    .btn {
+        padding: 0.6rem;
+        font-size: 25px;
+        font-weight: 100;
+        background: rgb(48, 48, 48);
+        border-color: rgb(48, 48, 48);;
+        border-radius: 10px;
+      }
+
+      .homePageCard:hover .btn{
+        transform: translateY(0%);
+        transition: 0.5s;
+        color:#007BFF;
+        background-color: white;
+    }
+
+    .skillsSection .skillFlex{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .skillsSection .skillFlex .skill{
+        padding: 2%;
+       box-shadow: none;
+          backdrop-filter: blur(5px);
+          animation: fadeIn 2.5s forwards;
+          flex-basis:350px;
+          border-radius: 7px;
+          margin: 2%;
+      }
+
+      .skillsSection .skillHeadingFlex{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .skillsSection .skillHeadingFlex .skillHead{
+        padding: 2%;
+       box-shadow: none;
+          backdrop-filter: blur(5px);
+          animation: fadeIn 2.5s forwards;
+          flex-basis:100px;
+          border-radius: 7px;
+          margin: 2%;
+          backdrop-filter: blur(0px);
+    }
+
+    .skillsSection .skillHeading h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 1;
+        letter-spacing: 20px;
+        margin-top: 5%;
+        animation: fadeIn 1s forwards;
+    }
+
+    hr{
+        display: none;
+        
+    }
+
+    .skillsSection .skillFlex .project{
+        padding: 2%;
+        box-shadow: none;
+          backdrop-filter: blur(5px);
+          animation: fadeIn 2.5s forwards;
+          flex-basis:350px;
+          border-radius: 7px;
+          margin: 2%;
+          min-height: auto;
+          padding: 5%;
+          border-bottom: 1px solid;
+      }
+ 
+      .bottom{
+        position: relative;
+       
+        width: 100%;
+    }
+
+    .skillsSection .educationFlex .education{
+      
+        box-shadow: none;
+          font-size: 18px;
+          border-bottom: 1px solid;
+      }
+
+      .skillsSection .skillName .myDescription{
+        font-size: 22px;
+    }
+
+    .skillsSection .skillName{
+        margin-top: 10%;
+    }
+
+    .cardFlex{
+        flex-direction: column;
+    }
+
+
+
+    .card{
+        
+        position: relative;
+        width: auto;
+        height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        border-style: none;
+        border-radius: 20px;
+        background: linear-gradient(135deg,rgb(37, 37, 37),rgb(37, 37, 37));
+        box-shadow:none;
+
+    }
+    
+    .card img{
+       display: none;
+    }
+    
+    .card .content{
+        position: relative;
+        width: 100%;
+        left: 0%;
+        top: 20%;
+        
+        opacity: 1;
+        visibility: visible;
+        transition: 0.5s;
+    }
+    
+    .card:hover .content{
+        left: 0%;
+        top: 20%;
+        opacity: 1;
+        visibility: visible;
+    }
+ 
+    
+ 
+    
+    .card .content h2{
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 1.5em;
+    }
+    
+    .card .content h3{
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .chanchal{
+        width: 150px;
+        height: 150px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        box-shadow: none;
+    }
+
+    .profilePic{
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+    }
+
+    .headSection{
+        margin-top: 30%;
+        
+    }
+
+    .headSection .textSection{
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+    .headSection .textSection h3{
+        font-size: 23px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+    
+    .homebtn{
+        padding: 1%;
+        font-size: 15px;
+        border-style: solid;
+        border-color: #007BFF;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
+    .homebtn2{
+        padding: 1%;
+        font-size: 15px;
+    }
+
+    .homePageCard{
+        margin-top: 0%;
+        padding: 5%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background: none;
+        box-shadow: none;
+        
+    }
+
+    .homePageCard:hover{
+        background: none;
+        box-shadow: none;
+    }
+
+    .homePageCard .contentCenter{
+       display: none;
+    }
+
+    .btn {
+        width: 60%;
+        padding: 0.1rem;
+        font-size: 15px;
+        font-weight: 100;
+        background: rgb(48, 48, 48);
+        border-color: rgb(48, 48, 48);
+        border-radius: 10px;
+      }
+
+      .homePageCard:hover .btn{
+       
+        transition: 0.5s;
+        color:#007BFF;
+        background-color: white;
+    }
+
+    .footerHeading1 
+    {
+        position: relative;
+    }
+
+    .footerHeading2 
+    {
+        position: relative;
+    }
+
+    .footerButtom{
+        position: relative;
+    }
+
+    .cardFlex{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .card{
+        margin-top: 50%;
+        position: relative;
+        width: 50%;
+        height: 250px;
+        margin: 20px;
+        
+        margin-bottom: 10%;
+        border-style: none;
+        border-radius: 20px;
+        background: linear-gradient(135deg,rgb(37, 37, 37),rgb(37, 37, 37));
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+        ;
+    }
+    
+    .card img{
+        display: block;
+        position: absolute;
+        top: -40%;
+        left: 70%;
+        transform: none;
+        height: 200px;
+        transition: 0.5s;
+    }
+    
+    .card:hover img{
+        left: -10%;
+        height: 250px;
+        transform: rotate(100deg) scale(0.5);
+      
+    }
+    
+    .card .content{
+        position: relative;
+        width: 100%;
+        left: 0%;
+        top: 30%;
+        padding: 20px 20px 20px 40px;
+        opacity: 1;
+        visibility: visible;
+        transition: 0.5s;
+    }
+    
+    .card:hover .content{
+        top: 35%;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .card .content h2{
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 2.0em;
+        line-height: 1em;
+    }
+    
+    .card .content h3{
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width:1024px){
+    .chanchal{
+        width: 180px;
+        height: 180px;
+    }
+
+    .headSection{
+        margin-top: 25%;
+    }
+
+    .headSection .textSection h3{
+        font-size: 25px;
+        font-weight: 8;
+        letter-spacing: 4px;
+    }
+    
+    .homebtn{
+        padding: 4%;
+        font-size: 15px;
+        border-style: solid;
+        border-color: #007BFF;
+    }
+
+    .homebtn2{
+        padding: 4%;
+        font-size: 15px;
+    }
+
+    .homePageCard{
+        margin-top: 0%;
+        padding: 10%;
+        max-width: 160px;
+        min-width: 160px;
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+        ;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background: rgb(24, 24, 24);;
+        
+    }
+
+    .homePageCard:hover{
+        background: rgb(255, 255, 255);
+        transition: 0.5s;
+        transform:scale(1.05);
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+        ;
+    }
+
+    .homePageCard .contentCenter{
+        display: block;
+     }
+
+    .btn {
+        padding: 0.6rem;
+        font-size: 15px;
+        font-weight: 100;
+        width: 100%;
+        margin-top: 25%;background-color: #007BFF;
+      }
+
+    .homePageCard:hover .contentCenter{
+        transform: translateY(-20%) scale(0.8);
+        transition: 0.5s;
+        
+    }
+    
+    .homePageCard:hover .btn{
+        transform: translateY(-50%);
+        transition: 0.5s;
+        color:#007BFF;
+        background-color: white;
+    }
+
+   
+
+    .skillsSection .skillFlex .skill{
+      
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+        ;
+      }
+
+
+      .skillsSection{
+        margin-top: 8%;
+    }
+
+    .skillsSection .skillHeading h1{
+        text-align: center;
+        font-size: 70px;
+        margin-top: 0;
+    }
+    .closeImage{
+        margin-top: 20%;
+    }
+
+
+    .skillsSection .skillFlex .project{
+        padding: 2%;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+        ;
+          backdrop-filter: blur(5px);
+          animation: fadeIn 2.5s forwards;
+          flex-basis:350px;
+          border-radius: 7px;
+          margin: 2%;
+          min-height: 500px;
+         
+          border-bottom: none;
+      }
+ 
+      .bottom{
+        position: absolute;
+       
+        width: 80%;
+    }
+
+    
+    .skillsSection .educationFlex .education{
+      
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+        ;
+          font-size: 22px;
+          border-bottom: none;
+      }
+
+      .skillsSection .skillName .myDescription{
+        font-size: 28px;
+    }
+
+    .skillsSection .skillName{
+        margin-top: 3%;
+    }
+
+}
+
+@media screen and (min-width:1152px){
+    .chanchal{
+        width: 180px;
+        height: 180px;
+    }
+
+    .headSection{
+        margin-top: 25%;
+    }
+
+    .headSection .textSection h3{
+        font-size: 35px;
+        font-weight: 8;
+        letter-spacing: 4px;
+    }
+    
+    .homebtn{
+        padding: 4%;
+        font-size: 15px;
+    }
+
+    .homebtn2{
+        padding: 4%;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width:1360px){
+    .chanchal{
+        width: 180px;
+        height: 180px;
+    }
+
+    .headSection{
+        margin-top: 22%;
+    }
+
+    .headSection .textSection h3{
+        font-size: 35px;
+        font-weight: 8;
+        letter-spacing: 4px;
+    }
+    
+    .homebtn{
+        padding: 4%;
+        font-size: 15px;
+    }
+
+    .homebtn2{
+        padding: 4%;
+        font-size: 15px;
+    }
+
+    .homePageCard{
+        margin-top: 0%;
+    }
+    .btn {
+        padding: 0.6rem;
+        font-size: 15px;
+        font-weight: 100;
+      }
+
+      .cardFlex{
+        flex-direction: row;
+    }
+
+    .card{
+        width: 40%;
+    }
+    
+    .card img{
+        top: -40%;
+        left: 70%;
+    }
+    
+    .card:hover img{
+        left: -15%;
+        height: 250px;
+        transform: rotate(100deg) scale(1.2);
+      
+    }
+   
+    
+    .card:hover .content{
+        top: 30%;
+        transform: scale(1.2);
+    }
+    
+}
+
+@media screen and (min-width:1280px){
+    .homePageCard{
+        margin-top: 0%;
+    }
+    .btn {
+        padding: 0.5rem;
+        font-size: 15px;
+        font-weight: 100;
+      }
+}
+
+@media screen and (min-width:1366px){
+    .chanchal{
+        width: 200px;
+        height: 200px;
+    }
+
+    .headSection{
+        margin-top: 22%;
+    }
+
+    .headSection .textSection h3{
+        font-size: 35px;
+        font-weight: 8;
+        letter-spacing: 4px;
+    }
+    
+    .homebtn{
+        padding: 4%;
+        font-size: 15px;
+    }
+
+    .homebtn2{
+        padding: 4%;
+        font-size: 15px;
+    }
+
+    .homePageCard{
+        margin-top: 0%;
+        ;
+    }
+    .btn {
+        padding: 0.6rem;
+        font-size: 15px;
+        font-weight: 100;
+      }
+}
+
+@media screen and (min-width:1440px){
+    .chanchal{
+        width: 225px;
+        height: 225px;
+    }
+
+    .headSection{
+        margin-top: 35%;
+    }
+
+    .headSection .textSection h3{
+        font-size: 42px;
+        font-weight: 10;
+        letter-spacing: 5px;
+    }
+
+    .footerHeading1 
+    {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .footerHeading2 
+    {
+        bottom: 0px;
+        position: relative;
+    }
+
+    .footerButtom{
+        position: relative;
+    }
+
+    
+    
+}
+
+@media screen and (min-width:1600px){
+
+    .headSection{
+        margin-top: 25%;
+    }
+
+    .headSection .textSection h3{
+        font-size: 45px;
+        font-weight: 15;
+        letter-spacing: 8px;
+    }
+
+    .chanchal{
+        width: 250px;
+        height: 250px;
+    }
+    .homePageCard{
+        margin-top: 20%;
+        max-width: 300px;
+        min-width: 200px;
+    }
+    
+}
+
+
+@media screen and (min-width:1920px){
+    .chanchal{
+        width: 300px;
+        height: 300px;
+    }
+    .headSection{
+        margin-top: 20%;
+    }
+
+    .homebtn{
+        width: 100%;
+        padding: 4%;
+        font-size: 15px;
+    }
+
+    .homebtn2{
+        width: 100%;
+        padding: 4%;
+        font-size: 15px;
+    }
+
+    .homePageCard{
+        margin-top: 20%;
+        max-width: 300px;
+        min-width: 200px;
+    }
+    .btn {
+        padding: 0.8rem;
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+
+    .card{
+        width: 30%;
+    }
+    
+   
+}   
+
+@media screen and (min-width:1921px){
+   
+    .headSection{
+        margin-top: 35%;
+    }
+
+ 
+    .skillsSection{
+        margin-top: 15%;
+    }
+
+    .skillsSection .skillName{
+        margin-top: 1%;
+    }
+}   
